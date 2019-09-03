@@ -1,82 +1,81 @@
 <!DOCTYPE html>
-<html lang=en>
-   <head>
-      <title>Contact Me</title>
-      <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
-      <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-   </head>
-   <header class="clearfox">
-        <nav class="navbar navbar-expand-lg navbar-light"></nav>
-        <a class="navbar-brand" href="#" id="userName">Devon Martens</a>
-        <span></span>
-        <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-             <span></span>
-              <a class="nav-item"></a>
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              <span></span>
-              <a class="nav-item"></a>
-                    <a class="nav-link" href="index.html">About</a>
-                  <span></span>
-            </ul>
-            <div></div>
-    </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">  
+</head>
+<header>
+        <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand" href="#" id="UserName"> Devon Martens</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About</a> </li>
+                        <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a> </li>
+                        <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a> </li>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+            
 </header>
-<body background= "assets/images/yellowstone.jpg">
-    <background-image><img src="assets/images/yellowstone.jpg" width="100%"></background-image>
-      <br>
-      <br>
-      <br>
-      <div class="wrapper">
-      <div class="container">
-         <article class="section1">
-            <div>
+<body>
+<div class="container">
+        <div class="card border-0 shadow my-5">
+          <div class="card-body p-5">
+
+
                <h2>Contact Me</h2>
                <br>             
 <br>
-<br>
-<br> 
+
                <hr>
+
+               <form>
+               <div class="form-group">
+                   <label for="Name">Name</label>
+                   <input type="text" class="form-control" placeholder="John Smith">
+               </div>
+               <div class="form-group">
+                   <label for="exampleInputEmail1">Email address</label>
+                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Example@gmail.com">
+                   <small id="emailHelp" class="form-text text-muted"></small>
+               </div>
+               <div class="form-group">
+                   <label for="exampleFormControlTextarea1">Message</label>
+                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                 </div>
+                 <input type="button" value="Submit" id="BUTT"/>
+             </form>
+         </div>
+      </div>
+
+
+        
+                    <footer>Copyright©</footer>
+
             </div>
-            <section id="box1">
-<form action="dmmartens91@gmail.com" method="post" enctype="text/plain"> <br>
-Name:<br>
-<br>
-<input type="text" name="name" id="name"/><br>
-<br>
-<br>
-E-mail:<br>
-<input type="text" name="mail" id="email"/><br>
-<br>
-<br>
-Message:<br>
-<input type="text" name="comment" size="100" id="message"/>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<input type="button" value="Submit" id="BUTT"/>
+          
+        </div>
 
 
-<br>
-<br>
-</form>
-</div>
-</div>
-</section>
-</article>
- </box>
-</div>
-<br>
-<div class="wrapper">
-<div class="container">
-<footer class="clearfix">&copy;2019 Devon Martens</footer>
-</div class="wrapper">
-</div class="container">
+
+    </div>
+
+
+
 </body>
+
 </html>
 

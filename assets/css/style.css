@@ -1,3 +1,112 @@
+
+
+   
+  
+container {
+  position: relative;
+}
+
+.btn-info {
+  position: absolute;
+}
+
+
+#UserName{
+  background-color:#4aaaa5;
+color: white;
+padding: 8.5px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:20pt;
+  /* width: 100%; */
+  margin: 0 0 0 10%;
+  text-align: center;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+ 
+}
+
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+.content {
+	width: 960px;
+	align-self: center;
+}
+
+.aboutme {
+	color: #4aaaa5;
+	font-size: 20pt;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 10px;
+    padding-right: 10px;
+	float: top;
+}
+
+h2 {
+	float: left;
+	color: #4aaaa5;
+	font-size: 20pt;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+    top: 0px;
+    position: relative; top: 5px; left: 10px;
+}
+
+/*center bodies*/
+
+.section1 {
+    background-color: #ffffff;
+    width: 960px;
+    position: absolute;
+    height: 500px;
+    align-self: center;
+    margin-left: 300px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    }
+
+
+body {
+	color: #777777;
+	font-size: 18px;
+  margin: 0px;
+    background-image: url(yellowstone.jpg);
+    position: relative;
+}
+
+
+/*Body for About Me*/
+
+
+img {
+    float: left;
+    margin: 20px;
+}
+#box1 {
+    display: block;
+    margin: 2px 2px 2px 2px;
+}
+    
+
+
 body {
   background: url('/assets/images/yellowstone.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -7,3 +116,108 @@ body {
 }
 
 
+
+footer {
+position: fixed;
+left: 0px;
+bottom: 0px;
+background-color: #666666;
+width: 100%;
+font-size: 12px;
+text-align: center;
+padding: 10px 0px;
+color: #ffffff;
+  border-top: 6px solid #4aaaa5;
+}
+
+/*portfolio images*/
+
+
+
+/* Bottom right text */
+
+ 
+.label1 {
+  background-color: #4aaaa5;
+  color: white;
+  width: 200px;
+  height: 33px;
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+
+  .label2 {
+   
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    height: 33px;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Lora', serif;
+  }
+
+
+  
+  .label3 { 
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    height: 33px;
+    font-size: 22px;
+    text-align: center;
+    float: right;
+    font-family: 'Lora', serif;
+  }
+
+  
+  .label4 {
+    background-color: #4aaaa5;
+    color: white;
+    width: 267px;
+    height: 33px;
+    font-size: 22px;
+    text-align: center;
+    float: right;
+    font-family: 'Lora', serif;
+  }
+
+}
+  .label5 {
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    height: 33px;
+    font-size: 22px;
+    text-align: center;
+    float: right;
+    font-family: 'Lora', serif;
+
+  }
+
+  #BUTT {
+    background-color: #4aaaa5;
+    border: none;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: white;
+    }
+    
+    .button{
+      position: absolute;
+      top: 550%;
+      left:49.2%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      padding: 20;
+      width: 341.1px;
+      background-color:#4aaaa5;
+      color: white;
+      font-size: 24pt;
+      cursor: pointer;
+      text-align: center;
+      }
+       

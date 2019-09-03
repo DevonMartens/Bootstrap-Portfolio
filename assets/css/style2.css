@@ -133,11 +133,10 @@ img {
 
 
 .container2 {
-    position: absolute; left:600px; top:  300px;
+    position: absolute; 
   }
   
-  #label2 {
-    position: absolute;  top: 100px; left: 20px;
+  .label2 {
     background-color: #4aaaa5;
     color: white;
     width: 200px;
