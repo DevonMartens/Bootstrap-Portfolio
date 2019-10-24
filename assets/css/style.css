@@ -74,19 +74,6 @@ img {
     
 
 
-body {
-<<<<<<< HEAD
-  background: no-repeat center center fixed;
-=======
-  background: url('./assets/images/yellowstone.jpg') no-repeat center center fixed;
->>>>>>> 1ab8851b7cba3b1c8f572a50467e63db0e13161a
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-
 
 footer {
 position: fixed;
