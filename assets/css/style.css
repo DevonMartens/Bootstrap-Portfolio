@@ -85,7 +85,7 @@ img {
 
 
 body {
-  background: url('/assets/images/yellowstone.jpg') no-repeat center center fixed;
+  background: url('./assets/images/yellowstone.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -230,3 +230,4 @@ margin: 55px 0px 10px 0px;
       cursor: pointer;
       text-align: center;
       }
+       
