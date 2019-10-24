@@ -65,7 +65,7 @@ body {
 	color: #777777;
 	font-size: 18px;
   margin: 0px;
-    background-image: url(yellowstone.jpg);
+    background-image: url(assets/images/yellowstone.jpg);
     position: relative;
 }
 
@@ -230,4 +230,3 @@ margin: 55px 0px 10px 0px;
       cursor: pointer;
       text-align: center;
       }
-       
