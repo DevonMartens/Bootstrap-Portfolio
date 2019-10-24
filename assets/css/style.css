@@ -1,3 +1,4 @@
+
 .btn-info {
   position: absolute;
 }
@@ -19,7 +20,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   position: relative;
  
 }
-
 
 
 .content {
@@ -60,6 +60,15 @@ h2 {
     }
 
 
+body {
+	color: #777777;
+	font-size: 18px;
+  margin: 0px;
+
+
+}
+
+
 /*Body for About Me*/
 
 
@@ -75,6 +84,9 @@ img {
 
 
 
+
+
+
 footer {
 position: fixed;
 left: 0px;
@@ -86,15 +98,13 @@ text-align: center;
 padding: 10px 0px;
 color: #ffffff;
   border-top: 6px solid #4aaaa5;
+  height: 65px;
 }
 
 h2 {
-  float: left;
   color: #4aaaa5;
   font-size: 20pt;
-  font-family: 'Georgia', Times, Times New Roman, serif;
-    top: 0px;
-    position: relative; top: 5px; left: 10px;
+  font-family: 'Georgia', Times, Times New Roman, serif; 
 }
 
 
@@ -185,13 +195,7 @@ margin: 55px 0px 10px 0px;
 
 /* Bottom right text */
 
- body {
-	color: #777777;
-	font-size: 18px;
-  margin: 0px;
-
-
-}
+ 
 
   #BUTT {
     background-color: #4aaaa5;
@@ -217,3 +221,4 @@ margin: 55px 0px 10px 0px;
       cursor: pointer;
       text-align: center;
       }
+       
